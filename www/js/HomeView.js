@@ -1,0 +1,3 @@
+var HomeView = function (service) {
+
+}
