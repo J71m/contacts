@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.contacts"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.contacts"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.example.contacts"
     }
   },
   "dependent_plugins": {}
