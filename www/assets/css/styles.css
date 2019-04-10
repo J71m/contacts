@@ -61,3 +61,11 @@ ul {
     background: transparent url(images/ic_action_location.png);
     background-repeat: no-repeat;
 }
+
+.element-align {
+    margin-left: 2.8rem;
+}
+
+.ml {
+    margin-left: 1rem;
+}

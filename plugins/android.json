@@ -18,6 +18,15 @@
     },
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "com.example.contacts"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.example.contacts"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "com.example.contacts"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.example.contacts"
     }
   },
   "dependent_plugins": {}

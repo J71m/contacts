@@ -4,6 +4,12 @@ var HomeView = function (service) {
 
     var employeeListView;
 
+    this.findByName = function() {
+        service.findByName($('.search-key').val()).done(function(employees) {
+            employeeListView.setEmployees(employees);
+        });
+    };
+
     this.initialize = function () {
         // Define a div wrapper for the view (used to attach events)
         this.$el = $('<div/>');
@@ -20,12 +26,10 @@ var HomeView = function (service) {
         return this;
     }
 
-    this.findByName = function() {
-        service.findByName($('.search-key').val()).done(function(employees) {
-            employeeListView.setEmployees(employees);
-        });
-    };
-
+    
     this.initialize();
+    service.findByName('').done(function(employees) {
+        employeeListView.setEmployees(employees);
+    });
 
 }

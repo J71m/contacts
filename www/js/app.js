@@ -31,7 +31,7 @@
                 navigator.notification.alert(
                     message,    // message
                     null,       // callback
-                    "Workshop", // title
+                    "Contacts", // title
                     'OK'        // buttonName
                 );
             };
